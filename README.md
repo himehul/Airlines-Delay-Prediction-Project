@@ -9,7 +9,7 @@ This project focuses on analyzing and predicting flight delays, aiming to enhanc
 - Utilized statistical techniques such as boxplot and histplot to gain insights into data distribution and identify potential patterns.
 - Investigated the correlation between different features to understand their relationships and potential impact on flight delays.
 - 
-#### Uploading Necessary Libraries
+#### Importing Necessary Libraries
 ```python
 import pandas as pd
 import numpy as np
