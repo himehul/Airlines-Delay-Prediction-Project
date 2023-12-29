@@ -3,12 +3,21 @@
 ## Overview
 This project focuses on analyzing and predicting flight delays, aiming to enhance our understanding of the factors influencing delays and create a predictive model using machine learning techniques. The primary objective is to implement statistical techniques, feature selection, and a machine learning model to accurately predict flight delays.
 
+## Data Dictionary
+Flight      : Flight ID
+Time        : Time of Departure (In Mins continuously from Midnight to Next Midnight)
+Length      : Length of the Flight (In Mins)
+Airline     : Airline Unique Code
+AirportFrom : Which Airport the flight flew from
+AirportTo   : Which Airport the flight flew to
+DayOfWeek   : Day of the Week of the flight (Starting Sunday
+
 ## Project Highlights
 
 ### Exploratory Data Analysis (EDA)
 - Utilized statistical techniques such as boxplot and histplot to gain insights into data distribution and identify potential patterns.
 - Investigated the correlation between different features to understand their relationships and potential impact on flight delays.
-- 
+  
 #### Importing Necessary Libraries
 ```python
 import pandas as pd
@@ -23,8 +32,11 @@ df = pd.read_excel('airlines_delay.xlsx', sheet_name='data')
 ```
 #### Having a First Look at the Data
 ![3](https://github.com/himehul/Airlines-Delay-Prediction-Project/assets/139626006/3b34da98-18a9-4ebe-a055-a92fafc01b8d)
-
-
+#
+#### Checking the Correlation
+![4](https://github.com/himehul/Airlines-Delay-Prediction-Project/assets/139626006/5dcfe38a-97eb-4d32-8f50-a22fbe6b6ea4)
+As we can see we don't have any strong correlation coefficient.
+#
 # EDA examples
 sns.boxplot(data=df, x='Class', y='Time')
 ```
