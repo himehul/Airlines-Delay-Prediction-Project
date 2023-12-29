@@ -11,7 +11,7 @@ This project focuses on analyzing and predicting flight delays, aiming to enhanc
 - **AirportFrom**   : Which Airport the flight flew from
 - **AirportTo**     : Which Airport the flight flew to
 - **DayOfWeek**     : Day of the Week of the flight (Starting Sunday
-- **Class Delayed** : (1) or Not (0)
+- **Class**         : Delayed (1) or Not (0)
 
 ## Project Highlights
 
