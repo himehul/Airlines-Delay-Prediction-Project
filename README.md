@@ -33,11 +33,16 @@ df = pd.read_excel('airlines_delay.xlsx', sheet_name='data')
 #### Having a First Look at the Data
 ![3](https://github.com/himehul/Airlines-Delay-Prediction-Project/assets/139626006/3b34da98-18a9-4ebe-a055-a92fafc01b8d)
 #
+![5](https://github.com/himehul/Airlines-Delay-Prediction-Project/assets/139626006/4e325575-f460-44d0-ab1a-77bca14aa556)
+
+#
 #### Checking the Correlation
 ![4](https://github.com/himehul/Airlines-Delay-Prediction-Project/assets/139626006/5dcfe38a-97eb-4d32-8f50-a22fbe6b6ea4)
+#
 As we can see we don't have any strong correlation coefficient.
 #
 # EDA examples
+```
 sns.boxplot(data=df, x='Class', y='Time')
 ```
 #
