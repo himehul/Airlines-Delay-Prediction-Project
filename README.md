@@ -4,13 +4,14 @@
 This project focuses on analyzing and predicting flight delays, aiming to enhance our understanding of the factors influencing delays and create a predictive model using machine learning techniques. The primary objective is to implement statistical techniques, feature selection, and a machine learning model to accurately predict flight delays.
 
 ## Data Dictionary
-- **Flight**      : Flight ID 
-- **Time**        : Time of Departure (In Mins continuously from Midnight to Next Midnight)
-- **Length**      : Length of the Flight (In Mins)
-- **Airline**     : Airline Unique Code
-- **AirportFrom** : Which Airport the flight flew from
-- **AirportTo**   : Which Airport the flight flew to
-- **DayOfWeek**   : Day of the Week of the flight (Starting Sunday
+- **Flight**        : Flight ID 
+- **Time**          : Time of Departure (In Mins continuously from Midnight to Next Midnight)
+- **Length**        : Length of the Flight (In Mins)
+- **Airline**       : Airline Unique Code
+- **AirportFrom**   : Which Airport the flight flew from
+- **AirportTo**     : Which Airport the flight flew to
+- **DayOfWeek**     : Day of the Week of the flight (Starting Sunday
+- **Class Delayed** : (1) or Not (0)
 
 ## Project Highlights
 
