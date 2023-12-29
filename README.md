@@ -98,12 +98,9 @@ rfc_pred = rfc.predict(X_test)
 
 ```python
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
-
-# Model evaluation
-print(confusion_matrix(y_test, rfc_pred))
-print(classification_report(y_test, rfc_pred))
-print(roc_auc_score(y_test, rfc_pred))
 ```
+![6](https://github.com/himehul/Airlines-Delay-Prediction-Project/assets/139626006/a8caa411-72ff-4ed4-b257-45aac48a76b1)
+
 
 ## Conclusion
 This project provides a comprehensive analysis of flight delays, including data exploration, feature engineering, and the implementation of a random forest classifier for prediction. The insights gained from this project can be valuable for stakeholders in the aviation industry and contribute to the development of proactive measures to mitigate flight delays.
